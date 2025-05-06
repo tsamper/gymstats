@@ -5,11 +5,14 @@ import android.app.PendingIntent
 import android.app.TimePickerDialog
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import java.util.Calendar
@@ -45,15 +48,20 @@ class CreatinaActivity : AppCompatActivity() {
             intent,
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
-
         val calendar = Calendar.getInstance().apply {
             set(Calendar.HOUR_OF_DAY, hora)
             set(Calendar.MINUTE, minuto)
             set(Calendar.SECOND, 0)
+            Log.d("NotiDebug", "Hora seleccionada: $hora:$minuto")
             if (before(Calendar.getInstance())) {
-                add(Calendar.DAY_OF_MONTH, 1) // Si la hora ya pasó hoy, programa para mañana
+                add(Calendar.DAY_OF_MONTH, 1)
+                Log.d("NotiDebug", "Hora ya pasada, programando para mañana")
+            } else {
+                Log.d("NotiDebug", "Programando para hoy")
             }
         }
+
+        Log.d("NotiDebug", "Notificación programada para: ${calendar.time}")
 
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         alarmManager.setRepeating(
@@ -62,5 +70,8 @@ class CreatinaActivity : AppCompatActivity() {
             AlarmManager.INTERVAL_DAY,
             pendingIntent
         )
+
+        Log.d("NotiDebug", "Alarma diaria registrada con éxito")
     }
+
 }
