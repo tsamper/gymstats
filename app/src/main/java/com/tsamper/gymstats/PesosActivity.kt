@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.net.toUri
+import org.w3c.dom.Text
 
 class PesosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +31,7 @@ class PesosActivity : AppCompatActivity() {
         val remoAlta: EditText = findViewById(R.id.remoAltaNumber)
         val jalon: EditText = findViewById(R.id.jalonNumber)
         val jalonDorsales: EditText = findViewById(R.id.jalonDorsalesNumber)
+        val pesoMuerto: EditText = findViewById(R.id.pesoMuertoNumber)
         //Pecho
         val pressBanca: EditText = findViewById(R.id.pressBancaNumber)
         val pressBancaMancuernas: EditText = findViewById(R.id.pressBancaMancuernasNumber)
@@ -53,11 +55,15 @@ class PesosActivity : AppCompatActivity() {
         val pressBancaText: TextView = findViewById(R.id.pressBancaText)
         val pressBancaMancuernasText: TextView = findViewById(R.id.pressBancaMancuernasText)
         val aperturasPechoText: TextView = findViewById(R.id.aperturasPechoText)
+        val curlText: TextView = findViewById(R.id.curlText)
+        val curlMartilloText: TextView = findViewById(R.id.curlMartilloText)
+        val pesoMuertoText: TextView = findViewById(R.id.pesoMuertoText)
 
         remoDorsal.setText(prefs.getInt("remoDorsal", 0).toString())
         remoAlta.setText(prefs.getInt("remoAlta", 0).toString())
         jalon.setText(prefs.getInt("jalon", 0).toString())
         jalonDorsales.setText(prefs.getInt("jalonDorsales", 0).toString())
+        pesoMuerto.setText(prefs.getInt("pesoMuerto", 0).toString())
         pressBanca.setText(prefs.getInt("pressBanca", 0).toString())
         pressBancaMancuernas.setText(prefs.getInt("pressBancaMancuernas", 0).toString())
         aperturasPecho.setText(prefs.getInt("aperturasPecho", 0).toString())
@@ -81,6 +87,9 @@ class PesosActivity : AppCompatActivity() {
         jalonDorsalesText.setOnClickListener{
             abrirVideo("n6ESW0L-SLY", 2)
         }
+        pesoMuertoText.setOnClickListener{
+            abrirVideo("3EhkrUEEPOg", 2)
+        }
         pressBancaText.setOnClickListener{
             abrirVideo("qmb-6KOXvJI", 2)
         }
@@ -89,6 +98,12 @@ class PesosActivity : AppCompatActivity() {
         }
         aperturasPechoText.setOnClickListener{
             abrirVideo("QHrIO139sWc", 2)
+        }
+        curlText.setOnClickListener{
+            abrirVideo("lj0Ue9U0Rg8", 2)
+        }
+        curlMartilloText.setOnClickListener{
+            abrirVideo("T0txYgZGKWU", 2)
         }
 
 
@@ -99,7 +114,8 @@ class PesosActivity : AppCompatActivity() {
                 putInt("remoDorsal", remoDorsal.text.toString().toInt())
                 putInt("remoAlta", remoAlta.text.toString().toInt())
                 putInt("jalon", jalon.text.toString().toInt())
-                putInt("jalonDorsales", jalon.text.toString().toInt())
+                putInt("jalonDorsales", jalonDorsales.text.toString().toInt())
+                putInt("pesoMuerto", pesoMuerto.text.toString().toInt())
                 putInt("pressBanca", pressBanca.text.toString().toInt())
                 putInt("pressBancaMancuernas", pressBancaMancuernas.text.toString().toInt())
                 putInt("aperturasPecho", aperturasPecho.text.toString().toInt())

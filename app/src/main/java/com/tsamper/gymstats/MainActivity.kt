@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PesosActivity::class.java)
             startActivity(intent)
         }
+        val botonGraficas: Button = findViewById(R.id.buttonGraficas)
+        botonGraficas.setOnClickListener{
+            val intent = Intent(this, GraficosActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
