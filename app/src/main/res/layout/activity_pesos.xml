@@ -133,6 +133,51 @@
                     android:ems="10"
                     android:inputType="number" />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/trapeciosText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Trapecios"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/trapeciosNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/remoTText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Remo en T"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/remoTNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -221,6 +266,72 @@
                 android:paddingHorizontal="20dp">
 
                 <TextView
+                    android:id="@+id/pressBancaMancuernasInclinadoText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Press banca inclinado mancuernas"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/pressBancaMancuernasInclinadoNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/pechoInferiorMancuernasText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pecho inferior con mancuernas"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/pechoInferiorMancuernasNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/pechoInferiorPoleaText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pecho inferior con polea"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/pechoInferiorPoleaNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
                     android:id="@+id/aperturasPechoText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -258,15 +369,59 @@
                 android:paddingHorizontal="20dp">
 
                 <TextView
-                    android:id="@+id/curlText"
+                    android:id="@+id/curlMaquinaText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Curl"
+                    android:text="Curl en máquina"
                     android:textSize="16dp" />
 
                 <EditText
-                    android:id="@+id/curlBicepsNumber"
+                    android:id="@+id/curlMaquinaNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/curlInclinadoText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Curl inclinado con mancuernas"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/curlInclinadoNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/curlBarraText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Curl con barra Z "
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/curlBarraNumber"
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
@@ -321,7 +476,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Press Frances"
+                    android:text="Press Francés"
                     android:textSize="16dp" />
 
                 <EditText
@@ -348,6 +503,28 @@
 
                 <EditText
                     android:id="@+id/poleaAbajoTriNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/fondosTricepsText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Fondos triceps"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/fondosTricepsNumber"
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
@@ -402,11 +579,33 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Aperturas Hombro"
+                    android:text="Aperturas hombro"
                     android:textSize="16dp" />
 
                 <EditText
                     android:id="@+id/aperturasHombroNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/hombroPosteriorText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hombro posterior"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/hombroPosteriorNumber"
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
@@ -435,7 +634,7 @@
                 android:paddingHorizontal="20dp">
 
                 <TextView
-                    android:id="@+id/textView21"
+                    android:id="@+id/gemeloText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -444,6 +643,138 @@
 
                 <EditText
                     android:id="@+id/gemeloNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/extensionCuadricepsText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Extensión cuádriceps"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/extensionCuadricepsNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/jacaText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jaca"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/jacaNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/prensaText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Prensa"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/prensaNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/prensaAductorText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Prensa aductor"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/prensaAductorNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/isquiosText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Isquios"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/isquiosNumber"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/gluteoText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hip thrust"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/gluteoNumber"
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
