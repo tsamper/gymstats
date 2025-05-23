@@ -65,7 +65,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -87,7 +87,7 @@
                     android:id="@+id/remoAltaNumber"
                     android:layout_width="75dp"
                     android:layout_height="42dp"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -109,7 +109,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -131,7 +131,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -153,7 +153,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -175,7 +175,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -197,7 +197,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <TextView
@@ -234,7 +234,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -256,7 +256,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -278,7 +278,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -300,7 +300,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -322,7 +322,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -344,7 +344,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <TextView
@@ -381,7 +381,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -403,7 +403,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -425,7 +425,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -447,7 +447,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <TextView
@@ -484,7 +484,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -506,7 +506,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -528,7 +528,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <TextView
@@ -565,7 +565,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -587,7 +587,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -609,7 +609,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <TextView
@@ -646,7 +646,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -668,7 +668,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -690,7 +690,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -712,7 +712,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -734,7 +734,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -756,7 +756,7 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -778,8 +778,10 @@
                     android:layout_width="75dp"
                     android:layout_height="42dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
+
+
 
         </LinearLayout>
     </ScrollView>
